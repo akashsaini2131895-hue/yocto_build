@@ -1,0 +1,37 @@
+header:
+  version: 13
+
+machine: beaglebone-yocto
+
+distro: poky
+
+repos:
+  poky:
+    url: https://git.yoctoproject.org/poky
+    branch: scarthgap
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+      
+  meta-arm:
+    url: https://git.yoctoproject.org/meta-arm
+    branch: scarthgap
+    layers:
+      meta-arm:
+      meta-arm-toolchain:
+
+  meta-ti:
+    url: https://git.yoctoproject.org/meta-ti
+    branch: scarthgap
+    layers:
+      meta-ti-bsp:
+      
+  meta-my-layer:
+    url: https://github.com/akashsaini2131895-hue/yocto_build
+    branch: main
+    layers:
+      meta-my-layer:
+   
+target:
+  - core-image-minimal
