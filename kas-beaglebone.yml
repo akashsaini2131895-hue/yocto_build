@@ -27,6 +27,13 @@ repos:
     layers:
       meta-ti-bsp:
       
+  meta-openembedded:
+    url: https://github.com/openembedded/meta-openembedded.git
+    branch: scarthgap
+    layers:
+      meta-oe:
+  
+      
   meta-my-layer:
     url: https://github.com/akashsaini2131895-hue/yocto_build
     branch: main
