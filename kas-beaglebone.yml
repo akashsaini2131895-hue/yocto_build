@@ -7,7 +7,7 @@ distro: poky
 
 repos:
   poky:
-    url: https://github.com/akashsaini2131895-hue/yocto_build
+    url: https://github.com/akashsaini2131895-hue/poky.git
     branch: main
     layers:
       meta:
@@ -41,4 +41,4 @@ repos:
       meta-my-layer:
    
 target:
-  - core-image-minimal
+  - core-test-image
