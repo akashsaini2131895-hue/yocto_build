@@ -6,7 +6,7 @@ DESCRIPTION = "Custom BeagleBone image with debugging tools"
 inherit core-image
 
 # Add debugging and essential utilities
-IMAGE_INSTALL += "util-linux-lsblk util-linux-fdisk util-linux-mount"
+#IMAGE_INSTALL += "util-linux-lsblk"
 
 # Optional: display banner during build
 python do_display_banner() {
