@@ -27,10 +27,10 @@ kas checkout $YOCTO_DIR/kas-beaglebone.yml
 
 # copy custom conf files into build/conf
 mkdir -p $BUILD_DIR
-mkdir -p $BUILD_DIR/conf
+#mkdir -p $BUILD_DIR/conf
 
-cp $YOCTO_DIR/conf/local-custom.conf $BUILD_DIR/conf/local.conf
-cp $YOCTO_DIR/conf/bblayers-custom.conf $BUILD_DIR/conf/bblayers.conf
+#cp $YOCTO_DIR/conf/local-custom.conf $BUILD_DIR/conf/local.conf
+#cp $YOCTO_DIR/conf/bblayers-custom.conf $BUILD_DIR/conf/bblayers.conf
 
 set +u
 # source oe-init build environment

@@ -1,9 +1,12 @@
-# meta-my-layer/recipes-core/images/core-image-minimal.bbappend
+# meta-my-layer/recipes-core/images/core-test-image.bb
+LICENSE = "CLOSED"
 
 DESCRIPTION = "Custom BeagleBone image with debugging tools"
 
+inherit core-image
+
 # Add debugging and essential utilities
-IMAGE_INSTALL:append = " util-linux-lsblk util-linux-fdisk util-linux-mount htop nano openssh "
+IMAGE_INSTALL += "util-linux-lsblk util-linux-fdisk util-linux-mount"
 
 # Optional: display banner during build
 python do_display_banner() {

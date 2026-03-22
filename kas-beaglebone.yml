@@ -7,8 +7,8 @@ distro: poky
 
 repos:
   poky:
-    url: https://git.yoctoproject.org/poky
-    branch: scarthgap
+    url: https://github.com/akashsaini2131895-hue/yocto_build
+    branch: main
     layers:
       meta:
       meta-poky:
