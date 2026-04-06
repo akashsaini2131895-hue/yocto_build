@@ -16,8 +16,7 @@ cd $YOCTO_DIR
 clean() {
   echo "Clean build artifact"
   rm -rf $BUILD_DIR
-  #rm -rf $BUILD_DIR/tmp
-  #rm -rf $BUILD_DIR/cache
+  rm -rf .repo
 }
 
 clean
@@ -26,11 +25,11 @@ clean
 repo init -u https://github.com/akashsaini2131895-hue/menifest.git -b main -m test_menifest.xml
 repo sync
 
-export TEMPLATECONF=$YOCTO_DIR/meta-my-layer/conf/templates/default
+export TEMPLATECONF=$YOCTO_DIR/sources/meta-my-layer/conf/templates/default
 
 set +u
 # source oe-init build environment
-source $YOCTO_DIR/poky/oe-init-build-env $BUILD_DIR > /dev/null
+source $YOCTO_DIR/sources/poky/oe-init-build-env $BUILD_DIR > /dev/null
 set -u
 
 bitbake core-test-image 
