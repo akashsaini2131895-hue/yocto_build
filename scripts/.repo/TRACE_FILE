@@ -1,0 +1,164 @@
+PID: 53572 START: 1775495814712497664 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/akashsaini2131895-hue/menifest.git, -b, main, -m, test_menifest.xml [sid=repo-20260406T171646Z-P0000d144/repo-20260406T171654Z-P0000d144]
+
+PID: 53572 START: 1775495814736514560 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 53572 END: 1775495814757380864 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 53572 START: 1775495814759013888 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 53572 END: 1775495814776824064 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 53572 START: 1775495814777010688 :: parsing /home/akash/.gitconfig
+
+PID: 53572 END: 1775495814777069056 :: parsing /home/akash/.gitconfig
+
+PID: 53572 START: 1775495814777197312 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 53572 END: 1775495814795552512 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 53572 START: 1775495814795867392 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 53572 END: 1775495814813456384 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 53572 START: 1775495814813574656 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 53572 END: 1775495814831140608 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 53572 START: 1775495814831507200 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/akashsaini2131895-hue/menifest.git'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/akashsaini2131895-hue/menifest.git 1>| 2>|
+
+PID: 53572 END: 1775495814849202432 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/akashsaini2131895-hue/menifest.git'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/akashsaini2131895-hue/menifest.git 1>| 2>|
+
+PID: 53572 START: 1775495814849327104 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 53572 END: 1775495814867084288 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 53572 START: 1775495814867601408 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 53572 END: 1775495814885553664 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 53572 START: 1775495814885982720 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 53572 END: 1775495814905296896 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 53572 START: 1775495814905624064 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 53572 END: 1775495814923639296 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--file', '/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/akash/my_build/yocto_build/scripts/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 53572 START: 1775495814924469504 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 53572 END: 1775495816082684928 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/main:refs/remotes/origin/main', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/akash/my_build/yocto_build/scripts/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/main:refs/remotes/origin/main +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 53572 START: 1775495816082882816 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 53572 END: 1775495816101933056 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 53572 START: 1775495816102616832 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 53572 END: 1775495816121256192 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/main^0'] with debug: : git rev-parse --verify refs/remotes/origin/main^0 1>| 2>|
+
+PID: 53572 START: 1775495816121590272 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'update-ref', '--no-deref', 'HEAD', '769166ad162cc41c6ae485e4e875c69454262cb3'] with debug: 
+: cd /home/akash/my_build/yocto_build/scripts/.repo/manifests
+: git update-ref --no-deref HEAD 769166ad162cc41c6ae485e4e875c69454262cb3 1>| 2>|
+
+PID: 53572 END: 1775495816140960512 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'update-ref', '--no-deref', 'HEAD', '769166ad162cc41c6ae485e4e875c69454262cb3'] with debug: 
+: cd /home/akash/my_build/yocto_build/scripts/.repo/manifests
+: git update-ref --no-deref HEAD 769166ad162cc41c6ae485e4e875c69454262cb3 1>| 2>|
+
+PID: 53572 START: 1775495816141225216 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 53572 END: 1775495816159436544 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: : git read-tree --reset -u -v HEAD 2>|
+
+PID: 53572 START: 1775495816159594752 :: load refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 START: 1775495816159845888 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'for-each-ref', '--format=%(objectname)%00%(refname)%00%(symref)'] with debug: : git for-each-ref --format=%(objectname)%00%(refname)%00%(symref) 1>| 2>|
+
+PID: 53572 END: 1775495816177554432 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'for-each-ref', '--format=%(objectname)%00%(refname)%00%(symref)'] with debug: : git for-each-ref --format=%(objectname)%00%(refname)%00%(symref) 1>| 2>|
+
+PID: 53572 START: 1775495816177752064 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'symbolic-ref', '-q', 'HEAD'] with debug: : git symbolic-ref -q HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816196523520 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'symbolic-ref', '-q', 'HEAD'] with debug: : git symbolic-ref -q HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816196884480 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 53572 END: 1775495816214642944 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 53572 START: 1775495816214969856 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--verify', '-q', 'HEAD'] with debug: : git rev-parse --verify -q HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816232692224 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--verify', '-q', 'HEAD'] with debug: : git rev-parse --verify -q HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816233059840 :: load refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 START: 1775495816233212928 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816251826944 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816252143872 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816270950400 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816271405568 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'checkout', '-q', '769166ad162cc41c6ae485e4e875c69454262cb3', '--'] with debug: : git checkout -q 769166ad162cc41c6ae485e4e875c69454262cb3 -- 2>|
+
+PID: 53572 END: 1775495816290614528 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'checkout', '-q', '769166ad162cc41c6ae485e4e875c69454262cb3', '--'] with debug: : git checkout -q 769166ad162cc41c6ae485e4e875c69454262cb3 -- 2>|
+
+PID: 53572 START: 1775495816290959104 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 53572 END: 1775495816308817408 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 53572 START: 1775495816309219840 :: scan refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 END: 1775495816309269248 :: scan refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 START: 1775495816309286144 :: load refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 START: 1775495816309375488 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'for-each-ref', '--format=%(objectname)%00%(refname)%00%(symref)'] with debug: : git for-each-ref --format=%(objectname)%00%(refname)%00%(symref) 1>| 2>|
+
+PID: 53572 END: 1775495816327050240 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'for-each-ref', '--format=%(objectname)%00%(refname)%00%(symref)'] with debug: : git for-each-ref --format=%(objectname)%00%(refname)%00%(symref) 1>| 2>|
+
+PID: 53572 START: 1775495816327372544 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'symbolic-ref', '-q', 'HEAD'] with debug: : git symbolic-ref -q HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816345395456 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'symbolic-ref', '-q', 'HEAD'] with debug: : git symbolic-ref -q HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816345779200 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--verify', '-q', 'HEAD'] with debug: : git rev-parse --verify -q HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816363529984 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--verify', '-q', 'HEAD'] with debug: : git rev-parse --verify -q HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816363919360 :: load refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 START: 1775495816364176896 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816382987264 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816383303680 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816401344768 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816401790976 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816420100608 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816420430592 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816439103488 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', 'HEAD'] with debug: : git rev-parse HEAD 1>| 2>|
+
+PID: 53572 START: 1775495816439237376 :: scan refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 END: 1775495816439363072 :: scan refs /home/akash/my_build/yocto_build/scripts/.repo/manifests.git
+
+PID: 53572 START: 1775495816439645952 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '769166ad162cc41c6ae485e4e875c69454262cb3'] with debug: : git update-ref refs/heads/default 769166ad162cc41c6ae485e4e875c69454262cb3 1>| 2>|
+
+PID: 53572 END: 1775495816459268096 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '769166ad162cc41c6ae485e4e875c69454262cb3'] with debug: : git update-ref refs/heads/default 769166ad162cc41c6ae485e4e875c69454262cb3 1>| 2>|
+
+PID: 53572 START: 1775495816459593984 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 53572 END: 1775495816478280192 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 53572 START: 1775495816478772992 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816497297664 :git command /home/akash/my_build/yocto_build/scripts/.repo/manifests.git ['git', 'rev-parse', '--symbolic-full-name', 'HEAD'] with debug: : git rev-parse --symbolic-full-name HEAD 1>| 2>|
+
+PID: 53572 END: 1775495816499370496 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/akashsaini2131895-hue/menifest.git, -b, main, -m, test_menifest.xml [sid=repo-20260406T171646Z-P0000d144/repo-20260406T171654Z-P0000d144]
+
